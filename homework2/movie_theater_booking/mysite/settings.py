@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-v$9_q*u@)0qh8a(ao(y!@c&a%54com=n1*it#=&=56+$3g2wfy
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['editor-matth-5.devedu.io']
+ALLOWED_HOSTS = ['editor-matth-5.devedu.io', 'app-matth-5.devedu.io']
 
 
 # Application definition
@@ -132,4 +132,5 @@ SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 CSRF_TRUSTED_ORIGINS = [
     'https://editor-matth-5.devedu.io',
+    'https://app-matth-5.devedu.io',
 ]
